@@ -21,9 +21,18 @@ public:
     ~Principal();
 
 private slots:
+
     void on_btnAgregar_clicked();
 
     void on_btnGuardar_clicked();
+
+    void on_btnEliminar_clicked();
+
+    void on_btnEditar_clicked();
+
+    void on_pushButton_clicked();
+
+    void on_tblLista_cellActivated(int row, int column);
 
 private:
     Ui::Principal *ui;
@@ -33,6 +42,6 @@ private:
         NOMBRE, APELLIDO, TELEFONO, EMAIL
     };
 
-    void cargarContactos();
+    void cargarDatos();
 };
 #endif // PRINCIPAL_H
