@@ -30,10 +30,6 @@ private slots:
 
     void on_btnEditar_clicked();
 
-    void on_pushButton_clicked();
-
-    void on_tblLista_cellActivated(int row, int column);
-
 private:
     Ui::Principal *ui;
     const QString ARCHIVO = "agenda.csv";

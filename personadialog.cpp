@@ -110,7 +110,7 @@ Persona *PersonaDialog::persona() const
 
 void PersonaDialog::on_inNombre_editingFinished()
 {
-    QString nombre = ui->inNombre->text()
+    QString nombre = ui->inNombre->text();
 }
 
 
