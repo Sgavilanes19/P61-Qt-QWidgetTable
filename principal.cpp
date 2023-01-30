@@ -25,13 +25,12 @@ Principal::~Principal()
 
 
 
-
 void Principal::on_btnEliminar_clicked()
 {
 
     QList<QModelIndex>big = ui->tblLista->selectionModel()->selectedRows();
     if(big.isEmpty()){
-        QMessageBox::information(this,"Seleccion","No se ha seleccionado ninguna fila :|");
+        QMessageBox::information(this,"Seleccion","No se ha seleccionado ninguna fila");
         return;
     }
 
@@ -54,7 +53,7 @@ void Principal::on_btnEditar_clicked()
     QList<QModelIndex>seleccion = ui->tblLista->selectionModel()->selectedRows();
 
     if(seleccion.isEmpty()){
-        QMessageBox::information(this,"Seleccion","No se ha seleccionado ninguna fila :|");
+        QMessageBox::information(this,"Seleccion","No se ha seleccionado ninguna fila");
         return;
     }
 
@@ -65,10 +64,8 @@ void Principal::on_btnEditar_clicked()
     }
 
     if(cont>1){
-        QMessageBox::information(this,"Seleccion","Seleccione SOLO UNA fila");
+        QMessageBox::information(this,"Seleccion","Seleccionr un fila");
         QMessageBox about;
-        about.setWindowTitle("Habla Serio Mijin!!");
-        about.setIconPixmap(QPixmap(":/recursos/img.jpeg"));
         about.exec();
         return;
     }
@@ -123,7 +120,6 @@ void Principal::cargarDatos()
         archivo.close();
     }
 }
-
 
 
 
