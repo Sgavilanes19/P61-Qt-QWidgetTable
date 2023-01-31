@@ -36,4 +36,5 @@ RESOURCES += \
     Recursos.qrc
 
 DISTFILES += \
-    Agenda_Telefonica_en.ts
+    Agenda_Telefonica_en.ts \
+    Agenda_Telefonica_it.ts
