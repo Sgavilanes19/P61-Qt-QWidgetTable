@@ -25,21 +25,12 @@ Principal::~Principal()
     delete ui;
 }
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
 void Principal::on_btnEliminar_clicked()
 {
 
     QList<QModelIndex>big = ui->tblLista->selectionModel()->selectedRows();
     if(big.isEmpty()){
-<<<<<<< HEAD
         QMessageBox::information(this,tr("Seleccion"),tr("No se ha seleccionado ninguna fila"));
-=======
-        QMessageBox::information(this,"Seleccion","No se ha seleccionado ninguna fila");
->>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
         return;
     }
 
@@ -62,11 +53,7 @@ void Principal::on_btnEditar_clicked()
     QList<QModelIndex>seleccion = ui->tblLista->selectionModel()->selectedRows();
 
     if(seleccion.isEmpty()){
-<<<<<<< HEAD
         QMessageBox::information(this,tr("Seleccion"),tr("No se ha seleccionado ninguna fila"));
-=======
-        QMessageBox::information(this,"Seleccion","No se ha seleccionado ninguna fila");
->>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
         return;
     }
 
@@ -75,13 +62,8 @@ void Principal::on_btnEditar_clicked()
     for (auto &&i : seleccion){
         cont++;
     }
-
     if(cont>1){
-<<<<<<< HEAD
         QMessageBox::information(this,tr("Seleccion"),tr("Seleccione una fila"));
-=======
-        QMessageBox::information(this,"Seleccion","Seleccionr un fila");
->>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
         QMessageBox about;
         about.exec();
         return;
@@ -89,7 +71,7 @@ void Principal::on_btnEditar_clicked()
 
     int row = ui->tblLista->currentRow();
 
-    QTableWidgetItem *nombre = ui->tblLista->item(row, (NOMBRE));
+    QTableWidgetItem *nombre = ui->tblLista->item(row, NOMBRE);
     QTableWidgetItem *apellido = ui->tblLista->item(row, APELLIDO);
     QTableWidgetItem *telefono = ui->tblLista->item(row, TELEFONO);
     QTableWidgetItem *email = ui->tblLista->item(row, EMAIL);
@@ -131,13 +113,15 @@ void Principal::cargarDatos()
             ui->tblLista->insertRow(fila);
             ui->tblLista->setItem(fila, NOMBRE, new QTableWidgetItem(datos[NOMBRE]));
             ui->tblLista->setItem(fila, APELLIDO, new QTableWidgetItem(datos[APELLIDO]));
-            ui->tblLista->setItem(fila, TELEFONO, new QTableWidgetItem(datos[TELEFONO]));
-            ui->tblLista->setItem(fila, EMAIL, new QTableWidgetItem(datos[EMAIL]));
+ui->tblLista->setItem(fila, TELEFONO, new QTableWidgetItem(datos[TELEFONO]));
+
+
+
+  ui->tblLista->setItem(fila, EMAIL, new QTableWidgetItem(datos[EMAIL]));
         }
         archivo.close();
     }
 }
-
 
 
 void Principal::on_btnAgregar_clicked()
@@ -160,8 +144,6 @@ void Principal::on_btnAgregar_clicked()
     ui->tblLista->setItem(fila, TELEFONO, new QTableWidgetItem(p->telefono()));
     ui->tblLista->setItem(fila, EMAIL, new QTableWidgetItem(p->email()));
 }
-
-
 
 void Principal::on_btnGuardar_clicked()
 {

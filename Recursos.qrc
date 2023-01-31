@@ -1,16 +1,11 @@
 <RCC>
     <qresource prefix="/">
-        <file>Recursos/icono.png</file>
-        <file>Recursos/eliminar.png</file>
-        <file>Recursos/editar.png</file>
-        <file>Recursos/guardar.png</file>
-<<<<<<< HEAD
-        <file>Recursos/cancelar.png</file>
         <file>Recursos/agregar.png</file>
+        <file>Recursos/editar.png</file>
+        <file>Recursos/eliminar.png</file>
+        <file>Recursos/guardar.png</file>
+        <file>Recursos/icono.png</file>
         <file>Agenda_Telefonica_it.qm</file>
         <file>Agenda_Telefonica_en.qm</file>
-=======
-        <file>Recursos/agregar.png</file>
->>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
     </qresource>
 </RCC>
