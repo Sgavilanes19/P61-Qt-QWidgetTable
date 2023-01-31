@@ -5,5 +5,8 @@
         <file>Recursos/editar.png</file>
         <file>Recursos/guardar.png</file>
         <file>Recursos/cancelar.png</file>
+        <file>Recursos/agregar.png</file>
+        <file>Agenda_Telefonica_it.qm</file>
+        <file>Agenda_Telefonica_en.qm</file>
     </qresource>
 </RCC>

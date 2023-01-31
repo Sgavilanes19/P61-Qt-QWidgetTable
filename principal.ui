@@ -84,7 +84,7 @@ background-color: rgb(70, 133, 235);</string>
        </property>
        <property name="icon">
         <iconset resource="Recursos.qrc">
-         <normaloff>:/Recursos/cancelar.png</normaloff>:/Recursos/cancelar.png</iconset>
+         <normaloff>:/Recursos/agregar.png</normaloff>:/Recursos/agregar.png</iconset>
        </property>
       </widget>
      </item>

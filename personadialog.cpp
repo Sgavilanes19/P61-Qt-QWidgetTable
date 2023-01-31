@@ -1,4 +1,6 @@
 
+#include <QTranslator>
+#include <QInputDialog>
 #include "personadialog.h"
 #include "ui_personadialog.h"
 
@@ -26,7 +28,7 @@ void PersonaDialog::on_buttonBox_accepted()
 
 
     if(!validar_texto(nombre) || !validar_texto(apellido) || !validar_tel(telefono) || !validar_email(email)){
-        QMessageBox::information(this, "Error", "Datos Erróneos o Incompletos");
+        QMessageBox::information(this,tr ("Error"),tr ("Datos Erróneos o Incompletos"));
         return;
     }
 
@@ -142,10 +144,4 @@ void PersonaDialog::on_inTelefono_editingFinished()
 void PersonaDialog::on_inEmail_editingFinished()
 {
     QString email = ui->inEmail->text();
-    if(!validar_email(email)){
-        ui->inEmail->setStyleSheet("background-color: rgb(255, 105, 180)");
-    }
-    else{
-        ui->inEmail->setStyleSheet("background-color: rgb(153, 193, 241)");
-    }
 }

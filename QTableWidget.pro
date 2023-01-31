@@ -13,6 +13,9 @@ SOURCES += \
     persona.cpp \
     personadialog.cpp \
     principal.cpp
+ TRANSLATIONS += \
+ Agenda_Telefonica_en.ts \
+ Agenda_Telefonica_it.ts
 
 HEADERS += \
     persona.h \
@@ -30,3 +33,6 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 RESOURCES += \
     Recursos.qrc
+
+DISTFILES += \
+    Agenda_Telefonica_en.ts
