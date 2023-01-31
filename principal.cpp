@@ -25,12 +25,21 @@ Principal::~Principal()
     delete ui;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
 void Principal::on_btnEliminar_clicked()
 {
 
     QList<QModelIndex>big = ui->tblLista->selectionModel()->selectedRows();
     if(big.isEmpty()){
+<<<<<<< HEAD
         QMessageBox::information(this,tr("Seleccion"),tr("No se ha seleccionado ninguna fila"));
+=======
+        QMessageBox::information(this,"Seleccion","No se ha seleccionado ninguna fila");
+>>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
         return;
     }
 
@@ -53,7 +62,11 @@ void Principal::on_btnEditar_clicked()
     QList<QModelIndex>seleccion = ui->tblLista->selectionModel()->selectedRows();
 
     if(seleccion.isEmpty()){
+<<<<<<< HEAD
         QMessageBox::information(this,tr("Seleccion"),tr("No se ha seleccionado ninguna fila"));
+=======
+        QMessageBox::information(this,"Seleccion","No se ha seleccionado ninguna fila");
+>>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
         return;
     }
 
@@ -64,7 +77,11 @@ void Principal::on_btnEditar_clicked()
     }
 
     if(cont>1){
+<<<<<<< HEAD
         QMessageBox::information(this,tr("Seleccion"),tr("Seleccione una fila"));
+=======
+        QMessageBox::information(this,"Seleccion","Seleccionr un fila");
+>>>>>>> 7b0efe8a685818d5b52ebf2562e6ef7c4ea1eadc
         QMessageBox about;
         about.exec();
         return;
@@ -120,7 +137,6 @@ void Principal::cargarDatos()
         archivo.close();
     }
 }
-
 
 
 
