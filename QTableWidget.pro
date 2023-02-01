@@ -14,7 +14,8 @@ SOURCES += \
     personadialog.cpp \
     principal.cpp
  TRANSLATIONS += \
- AgendaTelefonica_it.ts
+ AgendaTelefonica_it.ts\
+ AgendaTelefonica_en.ts
 
 HEADERS += \
     persona.h \
@@ -26,10 +27,8 @@ FORMS += \
     principal.ui
 
 RESOURCES += \
-    Resources.qrc
+    Resouse.qrc
 
-DISTFILES += \
-    AgendaTelefonica_en.ts \
-    AgendaTelefonica_it.ts
+
 
 
