@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
                                idiomas);
     // Dependiendo del idioma seleccionado, carga el archivo de traducción
     if (idiomaSeleccionado == "Italiano"){
-        traducion.load(":/Agenda_Telefonica_it.qm");
+        traducion.load(":/AgendaTelefonica_it.qm");
     }else if (idiomaSeleccionado == "Inglés"){
-        traducion.load(":Agenda_Telefonica_en.qm");
+        traducion.load("://AgendaTelefonica_en.qm");
     }// Si es diferente de español, se instala la traducción en TODA la aplicación
     if (idiomaSeleccionado != "Español"){
         a.installTranslator(&traducion);

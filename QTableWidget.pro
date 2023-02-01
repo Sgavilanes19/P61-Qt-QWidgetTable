@@ -14,8 +14,7 @@ SOURCES += \
     personadialog.cpp \
     principal.cpp
  TRANSLATIONS += \
- Agenda_Telefonica_en.ts \
- Agenda_Telefonica_it.ts
+ AgendaTelefonica_it.ts
 
 HEADERS += \
     persona.h \
@@ -26,15 +25,11 @@ FORMS += \
     personadialog.ui \
     principal.ui
 
-# Default rules for deployment.
-qnx: target.path = /tmp/$${TARGET}/bin
-else: unix:!android: target.path = /opt/$${TARGET}/bin
-!isEmpty(target.path): INSTALLS += target
-
 RESOURCES += \
-    Recursos.qrc \
-    Recursos.qrc
+    Resources.qrc
 
 DISTFILES += \
-    Agenda_Telefonica_en.ts \
-    Agenda_Telefonica_it.ts
+    AgendaTelefonica_en.ts \
+    AgendaTelefonica_it.ts
+
+

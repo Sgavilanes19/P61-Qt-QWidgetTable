@@ -96,7 +96,7 @@
         <location filename="principal.cpp" line="56"/>
         <location filename="principal.cpp" line="66"/>
         <source>Seleccion</source>
-        <translation>Seleccion</translation>
+        <translation>Selection</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="33"/>
@@ -130,7 +130,7 @@
     <message>
         <location filename="principal.cpp" line="169"/>
         <source>Contactos guardados con éxito</source>
-        <translation>Contactos guardados con éxito</translation>
+        <translation>Contacts saved successfully</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="171"/>
