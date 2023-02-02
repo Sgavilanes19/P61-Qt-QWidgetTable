@@ -10,14 +10,15 @@ SOURCES += \
     persona.cpp \
     personadialog.cpp \
     principal.cpp
- TRANSLATIONS += \
- AgendaTelefonica_it.ts\
- AgendaTelefonica_en.ts
 
 HEADERS += \
     persona.h \
     personadialog.h \
     principal.h
+
+TRANSLATIONS += \
+Agenda_en.ts \
+Agenda_it.ts
 
 FORMS += \
     personadialog.ui \
