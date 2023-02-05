@@ -6,7 +6,7 @@
     <message>
         <location filename="personadialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="personadialog.ui" line="22"/>

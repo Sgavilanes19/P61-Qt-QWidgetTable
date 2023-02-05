@@ -27,6 +27,10 @@ FORMS += \
 RESOURCES += \
     Resources.qrc
 
+DISTFILES += \
+    AgendaTelefonica_en.ts \
+    AgendaTelefonica_it.ts
+
 
 
 

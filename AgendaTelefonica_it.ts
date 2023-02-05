@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="en_US">
+<TS version="2.1" language="it_IT">
 <context>
     <name>PersonaDialog</name>
     <message>
         <location filename="personadialog.ui" line="14"/>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dialogo</translation>
     </message>
     <message>
         <location filename="personadialog.ui" line="22"/>
         <source>Nombre:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome:</translation>
     </message>
     <message>
         <location filename="personadialog.ui" line="32"/>
         <source>Apellido:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cognome:</translation>
     </message>
     <message>
         <location filename="personadialog.ui" line="42"/>
         <source>Teléfono:</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefono:</translation>
     </message>
     <message>
         <location filename="personadialog.ui" line="52"/>
         <source>E-mail:</source>
-        <translation type="unfinished"></translation>
+        <translation>E-mail:</translation>
     </message>
     <message>
         <location filename="personadialog.cpp" line="31"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <location filename="personadialog.cpp" line="31"/>
         <source>Datos Erróneos o Incompletos</source>
-        <translation type="unfinished"></translation>
+        <translation>Dati errati o incompleti</translation>
     </message>
 </context>
 <context>
@@ -44,98 +44,98 @@
     <message>
         <location filename="principal.ui" line="14"/>
         <source>Principal</source>
-        <translation type="unfinished"></translation>
+        <translation>Principale</translation>
     </message>
     <message>
         <location filename="principal.ui" line="37"/>
         <source>Editar</source>
-        <translation type="unfinished"></translation>
+        <translation>Modificare</translation>
     </message>
     <message>
         <location filename="principal.ui" line="48"/>
         <source>Eliminar</source>
-        <translation type="unfinished"></translation>
+        <translation>Rimuovere</translation>
     </message>
     <message>
         <location filename="principal.ui" line="72"/>
         <source>Guardar</source>
-        <translation type="unfinished"></translation>
+        <translation>Mantenere</translation>
     </message>
     <message>
         <location filename="principal.ui" line="83"/>
         <source>Agregar</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungere</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="12"/>
         <source>Agenda telefónica</source>
-        <translation type="unfinished"></translation>
+        <translation>Rubrica telefonica</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="16"/>
         <source>Nombre</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="16"/>
         <source>Apellido</source>
-        <translation type="unfinished"></translation>
+        <translation>Cognome</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="16"/>
         <source>Teléfono</source>
-        <translation type="unfinished"></translation>
+        <translation>Telefono</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="16"/>
         <source>E-mail</source>
-        <translation type="unfinished"></translation>
+        <translation>E-mail</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="33"/>
         <location filename="principal.cpp" line="56"/>
         <location filename="principal.cpp" line="66"/>
         <source>Seleccion</source>
-        <translation type="unfinished"></translation>
+        <translation>Selezione</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="33"/>
         <location filename="principal.cpp" line="56"/>
         <source>No se ha seleccionado ninguna fila</source>
-        <translation type="unfinished"></translation>
+        <translation>Nessuna riga selezionata</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="66"/>
         <source>Seleccione una fila</source>
-        <translation type="unfinished"></translation>
+        <translation>selezionare una riga</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="80"/>
         <location filename="principal.cpp" line="131"/>
         <source>Agregar contacto</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi contatto</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="153"/>
         <location filename="principal.cpp" line="169"/>
         <location filename="principal.cpp" line="171"/>
         <source>Guardar contactos</source>
-        <translation type="unfinished"></translation>
+        <translation>Salvare i contatti</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="153"/>
         <source>Agenda sin datos para guardar</source>
-        <translation type="unfinished"></translation>
+        <translation>Calendario senza dati da salvare</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="169"/>
         <source>Contactos guardados con éxito</source>
-        <translation type="unfinished"></translation>
+        <translation>Contatti salvati con successo</translation>
     </message>
     <message>
         <location filename="principal.cpp" line="171"/>
         <source>No se puede escribir sobre </source>
-        <translation type="unfinished"></translation>
+        <translation>Non posso scrivere </translation>
     </message>
 </context>
 </TS>
