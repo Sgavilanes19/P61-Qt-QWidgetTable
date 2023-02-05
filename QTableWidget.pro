@@ -17,8 +17,8 @@ HEADERS += \
     principal.h
 
 TRANSLATIONS += \
-Agenda_en.ts \
-Agenda_it.ts
+AgendaTelefonica_en.ts \
+AgendaTelefonica_it.ts
 
 FORMS += \
     personadialog.ui \
